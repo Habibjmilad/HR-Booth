@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://lafarge.com/HRBooth" version="1.0.0" viewmodes="fullscreen">
+    <access origin="*" subdomains="true"/>
+    <tizen:application id="K9UASlwIAJ.HRBooth" package="K9UASlwIAJ" required_version="2.3"/>
+    <author href="https://lafarge.com" email="sherif.fawzy@lafarge.com">sherif awad</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://www.samsungdforum.com/feature/External_Device"/>
+    <feature name="http://www.samsungdforum.com/feature/Gesture"/>
+    <icon src="largeIcon.png"/>
+    <tizen:metadata key="http://tizen.org/metadata/app_ui_type/base_screen_resolution" value="extensive"/>
+    <name>HRBooth</name>
+    <tizen:privilege name="http://developer.samsung.com/privilege/contentsdownload"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/network.public"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/productinfo"/>
+    <tizen:profile name="tv-samsung"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
